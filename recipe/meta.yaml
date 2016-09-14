@@ -4,6 +4,15 @@ package:
   name: conda-env
   version: {{ version }}
 
+build:
+  number: 0
+
+test:
+  requires:
+    - python
+  commands:
+    - python -c "import os, json; j=json.loads(open(os.path.join(os.environ['CONDA_PREFIX'], 'conda-meta', 'conda-env-2.6.0-0.json')).read()); assert len(j['files']) == 0"
+
 about:
   home: https://github.com/conda/conda-env
   summary: Tools for interacting with conda environments.
