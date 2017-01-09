@@ -11,6 +11,18 @@ Summary: Tools for interacting with conda environments.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/conda-env-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/conda-env-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/conda-env-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/conda-env-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/conda-env-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/conda-env-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/conda-env/badges/version.svg)](https://anaconda.org/conda-forge/conda-env)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/conda-env/badges/downloads.svg)](https://anaconda.org/conda-forge/conda-env)
+
 Installing conda-env
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `conda-env` available on your plat
 ```
 conda search conda-env --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/conda-env-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/conda-env-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/conda-env-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/conda-env-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/conda-env-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/conda-env-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/conda-env/badges/version.svg)](https://anaconda.org/conda-forge/conda-env)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/conda-env/badges/downloads.svg)](https://anaconda.org/conda-forge/conda-env)
 
 
 Updating conda-env-feedstock
