@@ -6,10 +6,13 @@ package:
 
 build:
   number: 1
+  noarch: python
 
 test:
   requires:
     - python
+  commands:
+    - conda env create --help
 
 about:
   home: https://github.com/conda/conda-env
