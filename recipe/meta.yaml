@@ -5,12 +5,12 @@ package:
   version: {{ version }}
 
 build:
-  number: 1
+  number: 2
   noarch: python
 
 test:
   requires:
-    - python
+    - python {{ python_min }}
   commands:
     - conda env create --help
 
